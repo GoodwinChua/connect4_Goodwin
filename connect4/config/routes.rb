@@ -53,4 +53,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  get 'connect4' => 'games#connect4'
 end

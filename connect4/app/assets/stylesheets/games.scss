@@ -1,0 +1,41 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1{
+	color : #4b4b4b;
+	font: 35px Helvetica;
+	text-align: center;
+}
+
+area{
+	cursor: pointer;
+}
+
+
+#coin_parent div[id$="2"]{
+	background-image: url(/assets/player_2.png); 
+	height:65px;
+	width:65px;
+	margin:1px;
+	position:absolute;
+	z-index:-1;
+}
+
+#coin_parent div[id$="1"]{
+	background-image: url(/assets/player_1.png); 
+	height:65px;
+	width:65px;
+	margin:1px;
+	position:absolute;
+	z-index:-1;
+}
+
+#tray{
+	background-image: url(/assets/Tray.png); 
+	height:400px;
+	width:600px;
+	top:200px;
+	left:375px;
+	position:absolute;
+}
