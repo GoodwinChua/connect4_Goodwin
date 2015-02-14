@@ -54,4 +54,6 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   get 'connect4' => 'games#connect4'
+  get 'inventory' => 'games#inventory'
+  
 end

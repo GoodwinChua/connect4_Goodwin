@@ -6,7 +6,7 @@ $( function(){
 	
 	var player_turn = 1;
 	
-	
+	$('h1').text("Player " + player_turn + "'s turn!");
 	var displayWinner = function(){
 		var playerNum = hello.getWinner();
 		$('#sound_effect')[0].currentTime = 0;
