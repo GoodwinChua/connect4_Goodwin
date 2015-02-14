@@ -12,7 +12,7 @@ $( function(){
 		$('#sound_effect')[0].currentTime = 0;
 		$('#sound_effect')[0].play();
 		if ( playerNum != 0 && playerNum != null){
-			alert("Player " + playerNum + " won!" + "\nRestart game?");
+			$('h1').text("Player " + playerNum + " won!" + "\nRestart game?");
 			location.reload();
 		}
 		else if ( playerNum == -1) {//Draw
