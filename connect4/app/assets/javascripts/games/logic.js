@@ -11,6 +11,7 @@ $( function(){
 		var playerNum = hello.getWinner();
 		$('#sound_effect')[0].currentTime = 0;
 		$('#sound_effect')[0].play();
+		$('h1').text("Player " + player_turn + "'s turn!");
 		if ( playerNum != 0 && playerNum != null){
 			$('h1').text("Player " + playerNum + " won!" + "\nRestart game?");
 			location.reload();
