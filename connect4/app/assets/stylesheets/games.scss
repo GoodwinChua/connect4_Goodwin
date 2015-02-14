@@ -16,6 +16,10 @@ area{
 	cursor: pointer;
 }
 
+#button_div{
+	text-align: center;
+	height: 25px;
+}
 
 #coin_parent div[id$="2"]{
 	background-image: url(/assets/player_2.png); 
@@ -39,7 +43,7 @@ area{
 	background-image: url(/assets/Tray.png); 
 	height:400px;
 	width:600px;
-	top:200px;
+	top:208px;
 	left:375px;
 	position:absolute;
 }
